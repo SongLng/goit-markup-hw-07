@@ -1,0 +1,38 @@
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+}
+
+header {
+  border-bottom: 0.5px solid;
+  color: var(--border-color);
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+  width: 448px;
+  height: 120px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
