@@ -801,8 +801,8 @@ textarea {
   margin-right: auto;
   margin-left: auto;
   background-color: var(--footer-background-color);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/hero-img-2.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero-img-2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(//images/hero-img-2.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(//images/hero-img-2.jpg);
 }
 
 .hero__title {
@@ -851,19 +851,19 @@ textarea {
 }
 
 .features__item:nth-child(1)::before {
-  background-image: url(/images/icon/antenna.svg);
+  background-image: url(//images/icon/antenna.svg);
 }
 
 .features__item:nth-child(2)::before {
-  background-image: url(/images/icon/clock.svg);
+  background-image: url(//images/icon/clock.svg);
 }
 
 .features__item:nth-child(3)::before {
-  background-image: url(/images/icon/diagram.svg);
+  background-image: url(//images/icon/diagram.svg);
 }
 
 .features__item:nth-child(4)::before {
-  background-image: url(/images/icon/astronaut.svg);
+  background-image: url(//images/icon/astronaut.svg);
 }
 
 .features__item {
