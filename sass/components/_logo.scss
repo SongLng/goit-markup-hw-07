@@ -1,5 +1,9 @@
-.logo-first {
+.logo__first {
   color: var(--accent);
+}
+
+.logo__second {
+  color: var(--primary-background-color);
 }
 
 .logo {
@@ -7,6 +11,17 @@
   margin-right: 93px;
   color: var(--title-text-color);
   font-family: raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer__logo {
+  font-family: raleway;
+  display: inline-block;
+  margin-right: 93px;
+  color: var(--title-text-color);
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
